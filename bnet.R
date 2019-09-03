@@ -82,7 +82,6 @@ saveRDS(boot.stren,paste0(data_out,'_bootBN.rds'))
 
 # save fitted network
 real = discdata
-real$SUBJID<-NULL
 finalBN<-readRDS(paste0(data_out,'_finalBN.rds'))
 fitted = bn.fit(finalBN, real, method=mth)
 saveRDS(fitted,paste0(data_out,'_finalBN_fitted.rds'))
