@@ -3,7 +3,7 @@
 This is the VAMBN implementation described in this [paper](link to be added). It is used to model the dependency structure of heterogeneous datasets. The main model is given by a conditional-gausssian Bayesian Network. This part of the code is written in R.
 To restrict the number of modelled variables, groups of variables can be autoencoded using a modified variational autoencoder for heterogeneous data. This part of the code adapts the HIVAE approach develloped by Nazabal et al and is written in python, using the [original implementation](https://github.com/probabilistic-learning/HI-VAE).
 
-Please cite both the VABM and the HIVAE [paper](https://arxiv.org/abs/1807.03653) if you use this code for your own research.
+Please cite both the VAMBN and the HIVAE [paper](https://arxiv.org/abs/1807.03653) if you use this code for your own research.
 
 # Running the code
 
