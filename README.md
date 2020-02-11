@@ -24,7 +24,7 @@ Data preprocessing is done in **clean_format.R** and **imputed_aux.R**.
 ## Autoencoding variable groups
 
 The HIVAE model is told the number, type and format of individual variables in each variable group using "types" files that need to be manually added to the data files saved out in data/HI-VAE/data_python/' by mputed_aux.R**. This is necessary as the decision to use a real or ordinal data type can greatly change the quality of the embedding. For examples of type files and the different available data types see the [GitHub repository](https://github.com/probabilistic-learning/HI-VAE)for the HIVAE.
-- **1_PPMI_HIVAE_training.ipynb**: The code in this notebook trains the individual modules for each variable groups, returning s-codes and z-codes that represent the gaussian distributed embeddings.
+- **1_PPMI_HIVAE_training.ipynb**: The code in this notebook trains the individual modules for each variable groups, returning s-codes and z-codes that represent the gaussian distributed embeddings. It can load optimized settings from a file (example file provided).
 - **2_PPMI_HIVAE_VP_decoding_and_counterfactuals**: After running the Bayesian Network, the Virtual Patient codes can be decoded using this notebook.
 
 ## Bayesian Network
