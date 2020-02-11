@@ -13,7 +13,8 @@ The code is currently equipped to analyse the PPMI dataset and needs to be chang
 
 ## Preparing the data
 
-**IMPORTANT: Data is not included with this code! To run this code, you must provide a dataframe with the data and create Type files to tell the HIVAE about the structure of your data. More detailed instructions below.**
+**IMPORTANT: Data is not included with this code! To request access to PPMI data, hollow this [link](https://www.ppmi-info.org/access-data-specimens/download-data/).
+To run this code, you must provide a dataframe with the variables you want to use in the virtual patients and create files to tell the HIVAE about the structure of your data. Delete all files labelled DELETE_PLACEHOLDER, these were just created to preserve the folder structure. More detailed instructions below.**
 
 Data preprocessing is done in **clean_format.R** and **imputed_aux.R**.
 
