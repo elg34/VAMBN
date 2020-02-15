@@ -11,8 +11,8 @@ The code was last run using R version 3.5.3 and python 3.6.5. If you have a tens
 ```
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()'
-to the python code.
 ```
+to the python code.
 
 The code is currently equipped to analyse the PPMI dataset and needs to be changed to adapt to a new dataset. If you need help with reformatting the data or adapting the code, please use the contact information included at the bottom of this page.
 
