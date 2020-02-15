@@ -8,9 +8,11 @@ Please cite both the VAMBN and the HIVAE [paper](https://arxiv.org/abs/1807.0365
 # Running the code
 
 The code was last run using R version 3.5.3 and python 3.6.5. If you have a tensorflow version that gives a placeholder error, add
-'import tensorflow.compat.v1 as tf
+```
+import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()'
 to the python code.
+```
 
 The code is currently equipped to analyse the PPMI dataset and needs to be changed to adapt to a new dataset. If you need help with reformatting the data or adapting the code, please use the contact information included at the bottom of this page.
 
