@@ -14,11 +14,11 @@ tf.disable_v2_behavior()'
 ```
 to the python code.
 
-The code is currently equipped to analyse the PPMI dataset and needs to be changed to adapt to a new dataset. If you need help with reformatting the data or adapting the code, please use the contact information included at the bottom of this page.
+The code needs to be changed to adapt to a new dataset. If you need help with reformatting the data or adapting the code, please use the contact information included at the bottom of this page.
 
 ## Preparing the data
 
-**IMPORTANT: Data is not included with this code! To request access to PPMI data, hollow this [link](https://www.ppmi-info.org/access-data-specimens/download-data/).
+**IMPORTANT: Data is not included with this code! To request access to PPMI data, follow this [link](https://www.ppmi-info.org/access-data-specimens/download-data/).
 To run this code, you must provide a dataframe with the variables you want to use in the virtual patients and create files to tell the HIVAE about the structure of your data. Delete all files labelled DELETE_PLACEHOLDER, these were just created to preserve the folder structure. More detailed instructions below.**
 
 Data preprocessing is done in **clean_format.R** and **imputed_aux.R**.
