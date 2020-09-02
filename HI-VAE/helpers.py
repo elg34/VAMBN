@@ -276,7 +276,7 @@ def dec_network(settings,zcodes,scodes,VP=False):
             feedDict = {i: d for i, d in zip(tf_nodes['ground_batch'], data_list)}
             feedDict.update({i: d for i, d in zip(tf_nodes['ground_batch_observed'], data_list_observed)})
             feedDict[tf_nodes['miss_list']] = miss_list
-            if VP:
+            if VP==True:
                 vpfile='VP_misslist/'+re.sub('data_python/|.csv','',args.data_file)+'_vpmiss.csv'
                 print('::::::::::::'+vpfile)
                 feedDict[tf_nodes['miss_list_VP']] = pd.read_csv(vpfile,header=None)
